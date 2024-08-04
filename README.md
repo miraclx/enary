@@ -31,6 +31,8 @@ Options:
 
 ### Examples
 
+Here's a small list of examples, others can be found in [examples/](examples/).
+
 #### Basic
 
 ```console
