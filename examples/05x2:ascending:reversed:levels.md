@@ -10,7 +10,7 @@
 - Table Representation: Horizontal (top-down)
 
 ```console
-enary 5 2 -a -r -l
+enary 5 2 -a -r -l -o examples/05x2:ascending:reversed:levels.md
 ```
 
 </details>

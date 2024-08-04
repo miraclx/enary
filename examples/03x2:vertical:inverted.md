@@ -10,7 +10,7 @@
 - Table Representation: Vertical (left-right)
 
 ```console
-enary 3 2 -t v+
+enary 3 2 -t v+ -o examples/03x2:vertical:inverted.md
 ```
 
 </details>

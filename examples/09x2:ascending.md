@@ -10,7 +10,7 @@
 - Table Representation: Horizontal (top-down)
 
 ```console
-enary 9 2 -a
+enary 9 2 -a -o examples/09x2:ascending.md
 ```
 
 </details>

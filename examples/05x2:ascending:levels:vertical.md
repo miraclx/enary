@@ -10,7 +10,7 @@
 - Table Representation: Vertical (right-left)
 
 ```console
-enary 5 2 -a -l -t v
+enary 5 2 -a -l -t v -o examples/05x2:ascending:levels:vertical.md
 ```
 
 </details>

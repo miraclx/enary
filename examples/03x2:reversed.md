@@ -10,7 +10,7 @@
 - Table Representation: Horizontal (top-down)
 
 ```console
-enary 3 2 -r
+enary 3 2 -r -o examples/03x2:reversed.md
 ```
 
 </details>

@@ -114,8 +114,8 @@ function main() {
     console.error("Usage: enary [opts] <leaves> <branches>");
     console.error();
     console.error("Options:");
-    console.error(`  -a              Ascending`);
-    console.error(`  -r              Reverse`);
+    console.error(`  -a              Ascending Order`);
+    console.error(`  -r              Reverse Order`);
     console.error(`  -l              Show level outlines`);
     console.error(`  -t <spec>       Table representation (default: \`${DEFAULT_REPR}\`)`);
     console.error(`                  - \`v\` for vertical   (\`v+\` to invert)`);
