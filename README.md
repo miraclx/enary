@@ -24,8 +24,7 @@ Options:
   -t <spec>       Table representation (default: `h`)
                   - `v` for vertical   (`v+` to invert)
                   - `h` for horizontal (`h+` to invert)
-  --raw           Print raw tree to stdout, do not write to file
-  -o <file>       Output file (default: `tree.md`)
+  -o <file>       Output file
   --debug         Print all nodes
   -h, --help      Show this help
 ```

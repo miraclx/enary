@@ -103,7 +103,6 @@ function linked(code) {
   return `https://mermaid.live/view#pako:${fragment}`;
 }
 
-const DEFAULT_FILE = "tree.md";
 const DEFAULT_REPR = "h";
 
 function main() {
@@ -121,8 +120,7 @@ function main() {
     console.error(`  -t <spec>       Table representation (default: \`${DEFAULT_REPR}\`)`);
     console.error(`                  - \`v\` for vertical   (\`v+\` to invert)`);
     console.error(`                  - \`h\` for horizontal (\`h+\` to invert)`);
-    console.error(`  --raw           Print raw tree to stdout, do not write to file`);
-    console.error(`  -o <file>       Output file (default: \`${DEFAULT_FILE}\`)`);
+    console.error(`  -o <file>       Output a markdown file containing the tree`);
     console.error("  --debug         Print all nodes");
     console.error("  -h, --help      Show this help");
     process.exit(1);
@@ -142,10 +140,10 @@ function main() {
     process.exit(1);
   }
 
-  let file = !args.includes("--raw") && DEFAULT_FILE;
-
   let idx;
-  if (file && (idx = args.indexOf("-o")) !== -1) {
+
+  let file;
+  if ((idx = args.indexOf("-o")) !== -1) {
     file = args[idx + 1];
   }
 
@@ -190,7 +188,7 @@ ${ascending ? " -a" : ""}\
 ${reverse ? " -r" : ""}\
 ${outlineLevels ? " -l" : ""}\
 ${repr !== DEFAULT_REPR ? ` -t ${repr}` : ""}\
-${file !== DEFAULT_FILE ? ` -o ${file}` : ""}
+${file ? ` -o ${file}` : ""}
 \`\`\`
 
 </details>
