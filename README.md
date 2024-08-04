@@ -4,6 +4,12 @@ Provided a leaf capacity and a branching factor, generate an n-ary tree for visu
 
 > Originally a gist in <https://gist.github.com/miraclx/9fc4639a6104ad6ec40fc52753ac8e6a>
 
+## Installation
+
+```console
+npm install enary
+```
+
 ## Usage
 
 ```console
