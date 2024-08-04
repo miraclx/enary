@@ -1,10 +1,10 @@
 {
   "name": "enary",
-  "version": "0.10.3",
+  "version": "0.1.0",
   "description": "Generate n-ary trees for visualization",
   "main": "./src/index.js",
   "bin": {
-    "enary": "./src/index.js"
+    "enary": "src/index.js"
   },
   "files": [
     "src"
