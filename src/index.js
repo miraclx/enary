@@ -212,7 +212,6 @@ ${treeVis}
   console.error("-".repeat(30));
   console.error("View interactive diagram at:");
   console.error("  -", link);
-  console.error("-".repeat(30));
 }
 
 main();
