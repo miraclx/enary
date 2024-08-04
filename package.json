@@ -1,0 +1,34 @@
+{
+  "name": "enary",
+  "version": "0.10.3",
+  "description": "Generate n-ary trees for visualization",
+  "main": "./src/index.js",
+  "bin": {
+    "enary": "./src/index.js"
+  },
+  "files": [
+    "src"
+  ],
+  "keywords": [
+    "tree",
+    "trees",
+    "n-ary",
+    "binary",
+    "mermaid",
+    "markdown",
+    "visualization"
+  ],
+  "author": {
+    "name": "Miraculous Owonubi",
+    "email": "omiraculous@gmail.com",
+    "url": "https://about.me/miraclx"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:miraclx/enary.git"
+  },
+  "bugs": {
+    "url": "https://github.com/miraclx/enary/issues"
+  },
+  "license": "Apache-2.0"
+}
